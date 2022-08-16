@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Callisto-Ayame-New
+_Comment=積読のClearlooksテーマ
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Callisto-Ayame-New
+IconTheme=Callisto Ayame
+CursorTheme=neutral
+ButtonLayout=close

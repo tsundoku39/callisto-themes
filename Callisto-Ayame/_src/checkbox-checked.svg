@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16"
+   height="16"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.92.2 2405546, 2018-03-11"
+   sodipodi:docname="checkbox-checked.svg"
+   inkscape:export-filename="/usr/share/themes/Clearlooks-Phenix-HiDPI/gtk-3.0/img/checkbox-checked@2.png"
+   inkscape:export-xdpi="180"
+   inkscape:export-ydpi="180">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3820">
+      <stop
+         style="stop-color:#c9c9c9;stop-opacity:1"
+         offset="0"
+         id="stop3822" />
+      <stop
+         id="stop3830"
+         offset="0.46428695"
+         style="stop-color:#c9c9c9;stop-opacity:1" />
+      <stop
+         id="stop3828"
+         offset="0.53571439"
+         style="stop-color:#e3e3e3;stop-opacity:1" />
+      <stop
+         style="stop-color:#e3e3e3;stop-opacity:1"
+         offset="1"
+         id="stop3824" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3820"
+       id="linearGradient3826"
+       x1="1"
+       y1="1037.3622"
+       x2="15"
+       y2="1051.3622"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#6c25e2"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="46.492271"
+     inkscape:cx="7.9750561"
+     inkscape:cy="8.1952946"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1600"
+     inkscape:window-height="900"
+     inkscape:window-x="-91"
+     inkscape:window-y="-54"
+     inkscape:window-maximized="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985"
+       empspacing="2"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       spacingx="0.5"
+       spacingy="0.5"
+       originx="0"
+       originy="0" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1036.3622)">
+    <path
+       sodipodi:type="inkscape:offset"
+       inkscape:radius="1"
+       inkscape:original="M 2.5 1038.8633 L 2.5 1049.8633 L 13.5 1049.8633 L 13.5 1038.8633 L 2.5 1038.8633 z "
+       xlink:href="#rect2987"
+       style="fill:none;fill-opacity:1;stroke:url(#linearGradient3826);stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path3042"
+       inkscape:href="#rect2987"
+       d="m 3.5,1038.875 c -0.554,0 -1,0.446 -1,1 l 0,9 c 0,0.554 0.446,1 1,1 l 9,0 c 0.554,0 1,-0.446 1,-1 l 0,-9 c 0,-0.554 -0.446,-1 -1,-1 l -9,0 z" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#787571;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect2987"
+       width="11"
+       height="11"
+       x="2.5"
+       y="1038.8624"
+       rx="0"
+       ry="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.19999999999999996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 4,7.5 7.5,12 C 7.5,12 9,6.5 12,4"
+       id="path3861"
+       inkscape:connector-curvature="0"
+       transform="translate(0,1036.3622)"
+       sodipodi:nodetypes="ccc" />
+  </g>
+</svg>
