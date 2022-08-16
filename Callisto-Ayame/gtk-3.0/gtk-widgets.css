@@ -209,7 +209,7 @@ rubberband {
 }
 
 statusbar {
-/*	border-image: url("qnx/menubar.png") 1 1 2 1 / 1px 1px 2px 1px repeat;
+/*	border-image: url("img/menubar.png") 1 1 2 1 / 1px 1px 2px 1px repeat;
 	background-image: -gtk-gradient (linear,
                       left top,
                       left bottom,
@@ -615,7 +615,7 @@ progressbar.vertical {
 /* progress component */
 progressbar.horizontal progress {
 	min-height: 16px;
-	border-image: url("qnx/progress-horizontal.png") 2 2 1 2 / 2px 2px 1px 2px repeat;
+	border-image: url("img/progress-horizontal.png") 2 2 1 2 / 2px 2px 1px 2px repeat;
 	border-width: 2px 2px 1px 2px;
 	border-radius: 0;
 	margin: -3px -1px -2px -2px;
@@ -623,7 +623,7 @@ progressbar.horizontal progress {
 
 progressbar.horizontal:backdrop progress {
 	min-height: 16px;
-	border-image: url("qnx/progress-horizontal-backdrop.png") 2 2 1 2 / 2px 2px 1px 2px repeat;
+	border-image: url("img/progress-horizontal-backdrop.png") 2 2 1 2 / 2px 2px 1px 2px repeat;
 	border-width: 2px 2px 1px 2px;
 	border-radius: 0;
 	margin: -3px -1px -1px -2px;
@@ -631,7 +631,7 @@ progressbar.horizontal:backdrop progress {
 
 progressbar.horizontal trough {
     min-height: 16px;
-	border-image: url("qnx/progressbar-trough.png") 3 2 2 3 / 3px 2px 2px 3px repeat;
+	border-image: url("img/progressbar-trough.png") 3 2 2 3 / 3px 2px 2px 3px repeat;
 	border-width: 3px 2px 2px 3px;
 	border-style: solid;
     border-radius: 0;
@@ -639,7 +639,7 @@ progressbar.horizontal trough {
 
 progressbar.horizontal:backdrop trough {
     min-height: 16px;
-	border-image: url("qnx/progressbar-trough-backdrop.png") 3 2 2 3 / 3px 2px 2px 3px repeat;
+	border-image: url("img/progressbar-trough-backdrop.png") 3 2 2 3 / 3px 2px 2px 3px repeat;
 	border-width: 3px 2px 2px 3px;
 	border-style: solid;
     border-radius: 0;
@@ -647,7 +647,7 @@ progressbar.horizontal:backdrop trough {
 
 progressbar.vertical trough {
 	min-width: 16px;
-	border-image: url("qnx/progressbar-trough.png") 3 2 2 3 / 3px 2px 2px 3px repeat;
+	border-image: url("img/progressbar-trough.png") 3 2 2 3 / 3px 2px 2px 3px repeat;
 	border-width: 3px 2px 2px 3px;
 	border-style: solid;
     border-radius: 0;
@@ -655,7 +655,7 @@ progressbar.vertical trough {
 
 progressbar.vertical:backdrop trough {
 	min-width: 16px;
-	border-image: url("qnx/progressbar-trough-backdrop.png") 3 2 2 3 / 3px 2px 2px 3px repeat;
+	border-image: url("img/progressbar-trough-backdrop.png") 3 2 2 3 / 3px 2px 2px 3px repeat;
 	border-width: 3px 2px 2px 3px;
 	border-style: solid;
     border-radius: 0;
@@ -663,7 +663,7 @@ progressbar.vertical:backdrop trough {
 
 progressbar.vertical progress {
     min-width: 16px;
-	border-image: url("qnx/progress-vertical.png") 2 1 2 2 / 2px 1px 2px 2px repeat;
+	border-image: url("img/progress-vertical.png") 2 1 2 2 / 2px 1px 2px 2px repeat;
 	border-width: 2px 1px 2px 2px;
     border-radius: 0;
 	margin: -2px 0px -1px -2px;
@@ -671,7 +671,7 @@ progressbar.vertical progress {
 
 progressbar.vertical:backdrop progress {
     min-width: 16px;
-	border-image: url("qnx/progress-vertical-backdrop.png") 2 1 2 2 / 2px 1px 2px 2px repeat;
+	border-image: url("img/progress-vertical-backdrop.png") 2 1 2 2 / 2px 1px 2px 2px repeat;
 	border-width: 2px 1px 2px 2px;
     border-radius: 0;
 	margin: -2px 0px -1px -2px;
@@ -983,7 +983,7 @@ scrolledwindow {
 scrolledwindow.frame,
 notebook > stack > scrolledwindow {
 	border-width: 0px 1px 1px 0px;
-	/* border-image: url("qnx/scrolledwindow-frame.png") 1 / 1px repeat; */
+	/* border-image: url("img/scrolledwindow-frame.png") 1 / 1px repeat; */
 	border-color: #222222;
 }
 
@@ -992,7 +992,7 @@ printdialog > box.view.vertical.dialog-vbox > box.vertical > notebook > stack > 
 }
 
 scrolledwindow.frame:backdrop {
-	/* border-image: url("qnx/scrolledwindow-frame-backdrop.png") 1 / 1px repeat; */
+	/* border-image: url("img/scrolledwindow-frame-backdrop.png") 1 / 1px repeat; */
 	border-color: #777777;
 }
 
@@ -1862,7 +1862,7 @@ notebook.frame {
     background-color: @notebook_bg_color;
     background-clip: border-box;
 /*    border-color: @border_color; */
-	border-image: url("qnx/notebook-border.png") 26 2 2 2/ 2px 2px 2px 2px repeat;
+	border-image: url("img/notebook-border.png") 26 2 2 2/ 2px 2px 2px 2px repeat;
 /*	border-image: -gtk-gradient(linear, left top, left bottom, from (#d6d6d6), to (#222222)); */
     border-style: solid;
     border-width: 2px;
@@ -1927,7 +1927,7 @@ paned.horizontal notebook header {
 notebook header.top {
     margin: -2px -2px 0px -1px;
 	padding: 2px 0px 0px 0px;
-	border-image: url("qnx/notebook-header-border-bottom.png") 2 / 2px;
+	border-image: url("img/notebook-header-border-bottom.png") 2 / 2px;
     border-width: 0px 0px 2px 0px;
     border-radius: 0px 0px 0px 0px;
     background-color: @theme_bg_color;
@@ -1979,7 +1979,7 @@ paned.horizontal notebook header.top tab:checked {
 
 notebook header tab {
     border-color: transparent;
-	border-image: url("qnx/notebook-top-tab-border.png") 1 1 2 1 / 1px 1px 2px 1px;
+	border-image: url("img/notebook-top-tab-border.png") 1 1 2 1 / 1px 1px 2px 1px;
     border-style: solid;
     border-width: 1px;
     background-color: transparent;
@@ -1998,7 +1998,7 @@ notebook header.top tab {
 
 notebook header.top tab:first-child {
 	border-color: transparent;
-	border-image: url("qnx/notebook-top-tab-border-first.png") 1 1 2 1 / 1px 1px 2px 1px;
+	border-image: url("img/notebook-top-tab-border-first.png") 1 1 2 1 / 1px 1px 2px 1px;
 }
 
 notebook header.top tab:checked {
@@ -2006,7 +2006,7 @@ notebook header.top tab:checked {
 /*	border-image: linear-gradient(to bottom,
 					  @notebook_active_tab_strip_gradient_a,
 					  #4b4b4b) 4 stretch; */
-	border-image: url("qnx/notebook-top-tab-border-checked.png") 4 2 1 2 / 4px 2px 1px 2px;
+	border-image: url("img/notebook-top-tab-border-checked.png") 4 2 1 2 / 4px 2px 1px 2px;
     /* border-width: 1px 1px 0px 1px; */
 	border-width: 4px 2px 1px 2px;
 /*    background-image: linear-gradient(to bottom,
@@ -2026,7 +2026,7 @@ notebook header.top tab:checked {
 }
 
 notebook header.top tab:checked:first-child {
-	border-image: url("qnx/notebook-top-tab-border-checked-first.png") 4 2 1 2 / 4px 2px 1px 2px;
+	border-image: url("img/notebook-top-tab-border-checked-first.png") 4 2 1 2 / 4px 2px 1px 2px;
 }
 
 notebook header.right tab {
@@ -2254,7 +2254,7 @@ combobox > .linked > button.combo:disabled {
     border-radius: 0px;
     border-width: 1px 0px 1px 0px;
 	border-color: red; */
-	border-image: url("qnx/button.png") 3 / 3px repeat;
+	border-image: url("img/button.png") 3 / 3px repeat;
 	border-radius: 0px;
 	border-width: 1px;
 	border-style: solid;
@@ -2262,7 +2262,7 @@ combobox > .linked > button.combo:disabled {
 }
 
 combobox > .linked > entry.combo:first-child {
-	border-image: url("qnx/combobox-entry.png") 4 5 3 4 / 4px 5px 3px 4px repeat;
+	border-image: url("img/combobox-entry.png") 4 5 3 4 / 4px 5px 3px 4px repeat;
 	border-radius: 0px;
 	border-width: 2px;
 	border-style: solid;
@@ -2270,7 +2270,7 @@ combobox > .linked > entry.combo:first-child {
 }
 
 combobox > .linked > entry.combo:focus:first-child {
-	border-image: url("qnx/combobox-entry-focus.png") 4 5 3 4 / 4px 5px 3px 4px repeat;
+	border-image: url("img/combobox-entry-focus.png") 4 5 3 4 / 4px 5px 3px 4px repeat;
 	border-radius: 0px;
 	border-width: 2px;
 	border-style: solid;
@@ -2295,7 +2295,7 @@ combobox > .linked > button.combo:hover:last-child,
 combobox > .linked > button.combo:checked:last-child,
 combobox > .linked > button.combo:focus:hover:last-child,
 combobox > .linked > button.combo:disabled:last-child {
-	border-image: url("qnx/button.png") 3 / 3px repeat;
+	border-image: url("img/button.png") 3 / 3px repeat;
     border-image-width: 3px;
     border-radius: 0;
     border-width: 1px;
@@ -2509,7 +2509,7 @@ scrollbar.horizontal .button {
 scrollbar.vertical button.up,
 scrollbar.vertical .button.up {
     -gtk-icon-source: -gtk-icontheme("pan-up-symbolic");
-	border-image: url("qnx/scrollbar-button.png") 1 / 1px repeat;
+	border-image: url("img/scrollbar-button.png") 1 / 1px repeat;
 	border-width: 1px;
 	margin-bottom: -1;
 }
@@ -2517,13 +2517,13 @@ scrollbar.vertical .button.up {
 scrollbar.vertical button.down,
 scrollbar.vertical .button.down {
     -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
-	border-image: url("qnx/scrollbar-button-vertical-down.png") 2 1 1 1 / 2px 1px 1px 1px repeat;
+	border-image: url("img/scrollbar-button-vertical-down.png") 2 1 1 1 / 2px 1px 1px 1px repeat;
 	border-width: 2px 1px 1px 1px;
 }
 
 scrollbar.vertical button.down:backdrop,
 scrollbar.vertical .button.down:backdrop {
-	border-image: url("qnx/scrollbar-button-vertical-down-backdrop.png") 2 1 1 1 / 2px 1px 1px 1px repeat;
+	border-image: url("img/scrollbar-button-vertical-down-backdrop.png") 2 1 1 1 / 2px 1px 1px 1px repeat;
 }
 
 scrollbar.vertical button.up:backdrop,
@@ -2534,7 +2534,7 @@ scrollbar.vertical .button.up:backdrop {
 scrollbar.horizontal button.up,
 scrollbar.horizontal .button.up {
     -gtk-icon-source: -gtk-icontheme("pan-start-symbolic");
-	border-image: url("qnx/scrollbar-button.png") 1 / 1px repeat;
+	border-image: url("img/scrollbar-button.png") 1 / 1px repeat;
 	border-width: 1px;
 	margin-right: -1;
 }
@@ -2542,13 +2542,13 @@ scrollbar.horizontal .button.up {
 scrollbar.horizontal button.down,
 scrollbar.horizontal .button.down {
     -gtk-icon-source: -gtk-icontheme("pan-end-symbolic");
-	border-image: url("qnx/scrollbar-button-horizontal-down.png") 1 2 1 1 / 1px 2px 1px 1px repeat;
+	border-image: url("img/scrollbar-button-horizontal-down.png") 1 2 1 1 / 1px 2px 1px 1px repeat;
 	border-width: 1px 2px 1px 1px;
 }
 
 scrollbar.horizontal button.down:backdrop,
 scrollbar.horizontal .button.down:backdrop {
-    border-image: url("qnx/scrollbar-button-horizontal-down-backdrop.png") 1 2 1 1 / 1px 2px 1px 1px repeat;
+    border-image: url("img/scrollbar-button-horizontal-down-backdrop.png") 1 2 1 1 / 1px 2px 1px 1px repeat;
 }
 
 scrollbar.horizontal button.up:backdrop,
@@ -2674,22 +2674,22 @@ scrollbar.vertical .button:hover:active {
 
 scrollbar.horizontal button.up:hover:active,
 scrollbar.horizontal .button.up:hover:active {
-	border-image: url("qnx/scrollbar-button-active") 1 / 1px repeat;
+	border-image: url("img/scrollbar-button-active") 1 / 1px repeat;
 }
 
 scrollbar.horizontal button.down:hover:active,
 scrollbar.horizontal .button.down:hover:active {
-	border-image: url("qnx/scrollbar-button-horizontal-down-active.png") 2 1 1 1 / 2px 1px 1px 1px repeat;
+	border-image: url("img/scrollbar-button-horizontal-down-active.png") 2 1 1 1 / 2px 1px 1px 1px repeat;
 }
 
 scrollbar.vertical button.up:hover:active,
 scrollbar.vertical .button.up:hover:active {
-	border-image: url("qnx/scrollbar-button-active") 1 / 1px repeat;
+	border-image: url("img/scrollbar-button-active") 1 / 1px repeat;
 }
 
 scrollbar.vertical button.down:hover:active,
 scrollbar.vertical .button.down:hover:active {
-	 border-image: url("qnx/scrollbar-button-vertical-down-active.png") 2 1 1 1 / 1px 2px 1px 1px repeat;
+	 border-image: url("img/scrollbar-button-vertical-down-active.png") 2 1 1 1 / 1px 2px 1px 1px repeat;
 }
 
 scrollbar button:backdrop,
@@ -2759,7 +2759,7 @@ menu,
     color: @menu_fg_color;
 /*    padding: 3px 3px; */
 	margin 3px 0px;
-	border-image: url("qnx/menu.png") 2 / 2px repeat;
+	border-image: url("img/menu.png") 2 / 2px repeat;
 	border-radius: 0;
     border-style: solid;
     border-width: 2px;
@@ -2796,7 +2796,7 @@ menu button:disabled,
 /* this controls the general appearance of the menubar */
 menubar,
 .menubar {
-	border-image: url("qnx/menubar.png") 1 1 2 1 / 1px 1px 2px 1px repeat;
+	border-image: url("img/menubar.png") 1 1 2 1 / 1px 1px 2px 1px repeat;
     border-style: solid;
 	border-width: 1px 1px 2px 1px;
 /*    padding: 1px; */
@@ -2812,7 +2812,7 @@ menubar:backdrop,
 .menubar:backdrop {
 	color: @insensitive_fg_color;
 	background-image: none;
-	border-image: url("qnx/menubar-backdrop.png") 1 1 2 1 / 1px 1px 2px 1px repeat;
+	border-image: url("img/menubar-backdrop.png") 1 1 2 1 / 1px 1px 2px 1px repeat;
 }
 
 menubar menuitem,
@@ -2833,7 +2833,7 @@ menuitem button.flat:active {
     border-style: solid;
     border-width: 1px 1px 0px;
     border-color: transparent;
-	border-image: url("qnx/menuitem.png") 1 / 1px repeat;
+	border-image: url("img/menuitem.png") 1 / 1px repeat;
     border-radius: 0;
     /* color: @menubar_menuitem_hover_color; */
     /* background-image: -gtk-gradient (linear,
@@ -2908,7 +2908,7 @@ menu menuitem:hover,
     border-style: solid;
     border-width: 1px;
     /* border-color: @menubar_menuitem_hover_border_color; */
-	border-image: url("qnx/menuitem.png") 1 / 1px repeat;
+	border-image: url("img/menuitem.png") 1 / 1px repeat;
 	border-color: transparent;
 	text-shadow: 1px 1px 1px black;
 }
@@ -3104,9 +3104,9 @@ menuitem separator {
 	margin: 1px 0px;
     min-height: 3px;
 	background-color: #aaaaaa;
-	background-image:  url("qnx/menu-separator-background.png");
+	background-image:  url("img/menu-separator-background.png");
 	background-repeat: repeat-x;
-	border-image: url("qnx/menu-separator.png") 0 2 / 0px 2px;
+	border-image: url("img/menu-separator.png") 0 2 / 0px 2px;
 	border-width: 0px 2px;
 }
 
@@ -3205,7 +3205,7 @@ radiobutton.text-button {
  ************/
 
 toolbar {
-	border-image: url("qnx/menubar.png") 1 1 2 1 / 1px 1px 2px 1px repeat;
+	border-image: url("img/menubar.png") 1 1 2 1 / 1px 1px 2px 1px repeat;
     border-style: solid;
 	border-width: 1px 1px 2px 1px;
 	background-image: -gtk-gradient (linear,
@@ -3219,7 +3219,7 @@ toolbar {
 }
 
 toolbar:backdrop {
-	border-image: url("qnx/menubar-backdrop.png") 1 1 2 1 / 1px 1px 2px 1px repeat;
+	border-image: url("img/menubar-backdrop.png") 1 1 2 1 / 1px 1px 2px 1px repeat;
 	background-image: none;
 }
 
@@ -4000,7 +4000,7 @@ treeview header button:focus:hover {
                       left bottom,
                       from (#c3c3c3),
                       to (#ebebeb));
-	border-image: url("qnx/treeview-header.png") 1 2 2 1 / 1px 2px 2px 1px;
+	border-image: url("img/treeview-header.png") 1 2 2 1 / 1px 2px 2px 1px;
 	border-width: 1px 2px 2px 1px;
     padding: 0 4px;
     font-weight: normal;
@@ -4045,7 +4045,7 @@ treeview header button:first-child:focus,
 treeview header button:first-child:checked,
 treeview header button:first-child:hover:active,
 treeview header button:first-child:active:focus {
-	border-image: url("qnx/treeview-header.png") 1 2 2 1 / 1px 2px 2px 1px repeat;
+	border-image: url("img/treeview-header.png") 1 2 2 1 / 1px 2px 2px 1px repeat;
 	border-width: 1px 1px 2px 1px;
 }
 
@@ -4054,7 +4054,7 @@ treeview header button:middle-child:focus,
 treeview header button:middle-child:checked,
 treeview header button:middle-child:hover:active,
 treeview header button:middle-child:active:focus {
-	border-image: url("qnx/treeview-header.png") 1 2 2 1 / 1px 2px 2px 1px repeat;
+	border-image: url("img/treeview-header.png") 1 2 2 1 / 1px 2px 2px 1px repeat;
 	border-width: 1px 1px 2px 1px;
 }
 
@@ -4063,18 +4063,18 @@ treeview header button:last-child:focus,
 treeview header button:last-child:checked,
 treeview header button:last-child:hover:active,
 treeview header button:last-child:active:focus {
-	border-image: url("qnx/treeview-header.png") 1 2 2 1 / 1px 2px 2px 1px repeat;
+	border-image: url("img/treeview-header.png") 1 2 2 1 / 1px 2px 2px 1px repeat;
 	border-width: 1px 2px 2px 1px;
 	margin: 0px -1px 0px 0px;
 }
 
 treeview header button:backdrop {
-	border-image: url("qnx/treeview-header-backdrop.png") 1 2 2 1 / 1px 2px 2px 1px repeat;
+	border-image: url("img/treeview-header-backdrop.png") 1 2 2 1 / 1px 2px 2px 1px repeat;
 	border-width: 1px 2px 2px 1px;
 } 
 
 /* treeview header button:first-child:backdrop {
-	border-image: url("qnx/treeview-header-backdrop-first.png") 1 2 2 1 / 1px 2px 2px 1px;
+	border-image: url("img/treeview-header-backdrop-first.png") 1 2 2 1 / 1px 2px 2px 1px;
 } */
 
 row,

@@ -44,7 +44,7 @@ scrollbar.vertical slider {
                           alpha (@scrollbar_slider_gradient_d, 0.5) 95%,
                           alpha (@scrollbar_slider_inner_border_color, 0.5)),
                       url("img/slider-vert-grip.png");
-	border-image: url("img/scrollbar-slider.png") 2 / 2px repeat;
+	border-image: url("qnx/scrollbar-slider.png") 2 / 2px repeat;
 }
 
 scrollbar.horizontal slider {
@@ -56,7 +56,7 @@ scrollbar.horizontal slider {
                           alpha (@scrollbar_slider_gradient_d, 0.5) 95%,
                           alpha (@scrollbar_slider_inner_border_color, 0.5)),
                       url("img/slider-horz-grip.png");
-	border-image: url("img/scrollbar-slider.png") 2 / 2px repeat;
+	border-image: url("qnx/scrollbar-slider.png") 2 / 2px repeat;
 }
 
 scrollbar.vertical slider:hover {
@@ -449,7 +449,7 @@ toolbar.primary-toolbar combobox button,
 toolbar.primary-toolbar switch,
 /* primary toolbar - hover button borders */
 toolbar.primary-toolbar button:hover {
-	border-image: url("img/button.png") 3 / 3px repeat;
+	border-image: url("qnx/button.png") 3 / 3px repeat;
 	border-radius: 0px;
 	border-width: 1px;
 	border-style: solid;
@@ -457,7 +457,7 @@ toolbar.primary-toolbar button:hover {
 }
 
 /* header button {
-	border-image: url("img/button-header.png") 2 / 2px repeat;
+	border-image: url("qnx/button-header.png") 2 / 2px repeat;
 	border-radius: 0px;
 	border-width: 2px;
 	border-style: solid;
@@ -505,7 +505,7 @@ combobox entry button:backdrop,
 button:backdrop,
 /* button.flat:backdrop, */
 button.default:backdrop {
-	border-image: url("img/button-backdrop.png") 3 / 3px repeat;
+	border-image: url("qnx/button-backdrop.png") 3 / 3px repeat;
 	border-radius: 0px;
 	border-width: 1px;
 	border-style: solid;
@@ -514,44 +514,44 @@ button.default:backdrop {
 
 buttonbox > button {
 	border-width: 6px;
-	border-image: url("img/button-margin.png") 6 / 6px repeat;
+	border-image: url("qnx/button-margin.png") 6 / 6px repeat;
 	padding: 3px;
 }
 
 buttonbox > button.default {
-	border-image: url("img/button-default.png") 6 / 6px repeat;
+	border-image: url("qnx/button-default.png") 6 / 6px repeat;
 	padding: 3px;
 	border-width: 6px;
 }
 
 buttonbox > button.default:backdrop {
-	border-image: url("img/button-default-backdrop.png") 6 / 6px repeat;
+	border-image: url("qnx/button-default-backdrop.png") 6 / 6px repeat;
 	padding: 3px;
 	border-width: 6px;
 }
 
 buttonbox > button:backdrop {
-	border-image: url("img/button-margin-backdrop.png") 6 / 6px repeat;
+	border-image: url("qnx/button-margin-backdrop.png") 6 / 6px repeat;
 	padding: 3px;
 	border-width: 6px;
 }
 
 buttonbox > button:active,
 buttonbox > button:focus:hover:active {
-	border-image: url("img/button-margin-pressed.png") 6 / 6px repeat;
+	border-image: url("qnx/button-margin-pressed.png") 6 / 6px repeat;
 	padding: 3px;
 	border-width: 6px;
 }
 
 buttonbox > button.default:active,
 buttonbox > button.default:focus:hover:active {
-	border-image: url("img/button-default-pressed.png") 6 / 6px repeat;
+	border-image: url("qnx/button-default-pressed.png") 6 / 6px repeat;
 	padding: 3px;
 	border-width: 6px;
 }
 
 buttonbox > button.default:disabled {
-	border-image: url("img/button-default-backdrop.png") 6 / 6px repeat;
+	border-image: url("qnx/button-default-backdrop.png") 6 / 6px repeat;
 	padding: 3px;
 	border-width: 6px;
 }
@@ -565,7 +565,7 @@ buttonbox > button.default:disabled {
 /* text entry fields */
 
 entry {
-	border-image: url("img/entry.png") 4 3 3 4 / 4px 3px 3px 4px repeat;
+	border-image: url("qnx/entry.png") 4 3 3 4 / 4px 3px 3px 4px repeat;
 	border-radius: 0;
 	border-width: 2px;
 	border-style: solid;
@@ -573,11 +573,11 @@ entry {
 }
 
 entry:backdrop {
-	border-image: url("img/entry-backdrop.png") 4 3 3 4 / 4px 3px 3px 4px repeat;
+	border-image: url("qnx/entry-backdrop.png") 4 3 3 4 / 4px 3px 3px 4px repeat;
 }
 
 combobox entry {
-	border-image: url("img/entry.png") 4 0 3 4 / 4px 0px 3px 4px repeat;
+	border-image: url("qnx/entry.png") 4 0 3 4 / 4px 0px 3px 4px repeat;
 	border-radius: 0;
 	border-width: 2px;
 	border-style: solid;
@@ -585,7 +585,7 @@ combobox entry {
 }
 
 combobox entry:backdrop {
-	border-image: url("img/entry-backdrop.png") 4 0 3 4 / 4px 0px 3px 4px repeat;
+	border-image: url("qnx/entry-backdrop.png") 4 0 3 4 / 4px 0px 3px 4px repeat;
 }
 
 button.flat:active,
@@ -595,7 +595,7 @@ toolbar.primary-toolbar button.raised:active,
 toolbar.primary-toolbar button:active,
 toolbar.primary-toolbar .raised button:active,
 toolbar.primary-toolbar combobox button:active {
-    border-image: url("img/button-pressed-platinum.png") 3 / 3px repeat;
+    border-image: url("qnx/button-pressed-platinum.png") 3 / 3px repeat;
     border-radius: 0px;
     border-width: 1px;
     border-style: solid;
@@ -615,7 +615,7 @@ toolbar.primary-toolbar button.raised:disabled,
 toolbar.primary-toolbar .raised button:disabled,
 toolbar.primary-toolbar switch:disabled,
 toolbar.primary-toolbar combobox button:disabled {
-	border-image: url("img/button-pressed.png") 3 / 3px repeat;
+	border-image: url("qnx/button-pressed.png") 3 / 3px repeat;
 	border-radius: 0px;
 	border-width: 1px;
 	border-style: solid;
@@ -748,7 +748,7 @@ toolbar.inline-toolbar toolbutton button :only-child:active,
 toolbar.inline-toolbar toolbutton button :only-child:focus,
 toolbar.inline-toolbar toolbutton button :only-child:focus:active,
 toolbar.inline-toolbar toolbutton button :only-child:disabled {
-    border-image: url("img/button.png") 3 / 3px repeat;
+    border-image: url("qnx/button.png") 3 / 3px repeat;
     border-radius: 0px;
     border-width: 1px;
     border-style: solid;
@@ -839,7 +839,7 @@ list row button:hover {
 /* toolbar.primary-toolbar button.raised.default,
 toolbar.primary-toolbar .raised button.default { */
 button.default {
-    border-image: url("img/button-focus.png") 3 / 3px repeat;
+    border-image: url("qnx/button-focus.png") 3 / 3px repeat;
     border-radius: 0px;
     border-width: 1px;
 	border-color: transparent;
@@ -856,7 +856,7 @@ toolbar.primary-toolbar .raised button:focus:active,
 toolbar.primary-toolbar button.raised.default:active,
 toolbar.primary-toolbar .raised button.default:active,
 toolbar.primary-toolbar combobox button:active:focus {
-	border-image: url("img/button-pressed-platinum.png") 3 / 3px repeat;
+	border-image: url("qnx/button-pressed-platinum.png") 3 / 3px repeat;
 	border-radius: 0px;
 	border-width: 1px;
 	border-color: transparent;
@@ -869,7 +869,7 @@ entry:focus,
 combobox entry:focus,
 toolbar.primary-toolbar entry:focus,
 toolbar.primary-toolbar combobox entry:focus {
-	border-image: url("img/entry-focus.png") 4 3 3 4 / 4px 3px 3px 4px repeat;
+	border-image: url("qnx/entry-focus.png") 4 3 3 4 / 4px 3px 3px 4px repeat;
 	border-radius: 0;
 	border-width: 2px;
 	border-style: solid;
