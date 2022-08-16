@@ -3918,6 +3918,13 @@ treeview:selected {
     background-color: @theme_selected_bg_color;
     color: @theme_selected_fg_color;
 }
+view:selected:backdrop,
+view:selected:focus:backdrop,
+.view:selected:backdrop,
+.view:selected:focus:backdrop,
+treeview:selected:backdrop {
+	background-color: #c7c7c7;
+}
 
 view:disabled,
 .view:disabled,

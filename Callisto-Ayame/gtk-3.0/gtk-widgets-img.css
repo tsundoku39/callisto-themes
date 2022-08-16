@@ -113,6 +113,50 @@ check row:selected:focus:disabled {
     -gtk-icon-source: url("img/checkbox-unchecked-insensitive.png");
 }
 
+treeview check {
+	-gtk-icon-source: url("img/treeview-checkbox-unchecked.png");
+}
+
+treeview check:focus {
+	-gtk-icon-source: url("img/treeview-checkbox-unchecked-focus.png");
+}
+
+treeview check:hover {
+	-gtk-icon-source: url("img/treeview-checkbox-unchecked-hover.png");
+}
+
+treeview check:focus:hover {
+	-gtk-icon-source: url("img/treeview-checkbox-unchecked-focus-hover.png");
+}
+
+treeview check:checked {
+    -gtk-icon-source: url("img/treeview-checkbox-checked.png");
+}
+
+treeview check:checked:focus {
+	-gtk-icon-source: url("img/treeview-checkbox-checked-focus.png");
+}
+
+treeview check:checked:hover {
+	-gtk-icon-source: url("img/treeview-checkbox-checked-hover.png");
+}
+
+treeview check:checked:focus:hover {
+	-gtk-icon-source: url("img/treeview-checkbox-checked-focus-hover.png");
+}
+
+treeview check:backdrop {
+	-gtk-icon-source: url("img/treeview-checkbox-unchecked-insensitive.png");
+}
+
+treeview check:checked:backdrop {
+	-gtk-icon-source: url("img/treeview-checkbox-checked-insensitive.png");
+}
+
+treeview check:hover {
+	background-color: @row_hover_bg_color;
+}
+
 check:checked,
 .check:checked,
 check row:selected:checked,
