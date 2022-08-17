@@ -1868,6 +1868,11 @@ notebook.frame {
     border-width: 2px;
     border-radius: 0;
 }
+printdialog > box.view.vertical.dialog-vbox > box.vertical > notebook:backdrop,
+notebook:backdrop.frame {
+	border-image: url("img/notebook-border-backdrop.png") 26 2 2 2/ 2px 2px 2px 2px repeat;
+	color: @insensitive_fg_color;
+}
 
 /* pavu-control */
 window.background > box.vertical > notebook:not(.frame),
@@ -1933,6 +1938,9 @@ notebook header.top {
     background-color: @theme_bg_color;
     box-shadow: inset  0px -1px 0 0 @border_color;
 }
+notebook header:backdrop.top {
+	border-image: url("img/notebook-header-border-bottom-backdrop.png") 2 / 2px;
+}
 
 paned.horizontal notebook header.top {
     margin: 0px;
@@ -1984,6 +1992,9 @@ notebook header tab {
     border-width: 1px;
     background-color: transparent;
 }
+notebook header tab:backdrop {
+	border-image: url("img/notebook-top-tab-border-backdrop.png")  1 1 2 1 / 1px 1px 2px 1px;
+}
 
 notebook header.top tab {
 /*    margin: 0px 0px 0px -1px; */
@@ -1995,10 +2006,18 @@ notebook header.top tab {
                       @notebook_tab_gradient_a,
                       @notebook_tab_gradient_d);
 }
+notebook header.top tab:backdrop {
+	background-image: none;
+	background-color: @theme_bg_color;
+	color: @insensitive_fg_color;
+}
 
 notebook header.top tab:first-child {
 	border-color: transparent;
 	border-image: url("img/notebook-top-tab-border-first.png") 1 1 2 1 / 1px 1px 2px 1px;
+}
+notebook header.top tab:first-child:backdrop {
+	border-image: url("img/notebook-top-tab-border-first-backdrop.png") 1 1 2 1 / 1px 1px 2px 1px;
 }
 
 notebook header.top tab:checked {
@@ -2024,9 +2043,17 @@ notebook header.top tab:checked {
 	margin-top: -2px;
 	padding-top: 2px;
 }
+notebook header.top tab:checked:backdrop {
+	background-color: @notebook_bg_color;
+	background-image: none;
+	border-image: url("img/notebook-top-tab-border-checked-backdrop.png") 4 2 1 2 / 4px 2px 1px 2px;
+}
 
 notebook header.top tab:checked:first-child {
 	border-image: url("img/notebook-top-tab-border-checked-first.png") 4 2 1 2 / 4px 2px 1px 2px;
+}
+notebook header.top tab:checked:first-child:backdrop {
+	border-image: url("img/notebook-top-tab-border-checked-first-backdrop.png") 4 2 1 2 / 4px 2px 1px 2px;
 }
 
 notebook header.right tab {
