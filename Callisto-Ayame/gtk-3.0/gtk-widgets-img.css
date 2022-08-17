@@ -98,6 +98,11 @@ check row:selected,
 check row:selected:focus {
     -gtk-icon-source: url("img/checkbox-unchecked.png");
 }
+check:backdrop,
+.check:backdrop,
+check row:selected:backdrop {
+	-gtk-icon-source: url("img/checkbox-unchecked-backdrop.png");
+}
 
 check:hover,
 .check:hover,
@@ -106,13 +111,16 @@ check row:selected:focus:hover {
     -gtk-icon-source: url("img/checkbox-unchecked-hover.png");
 }
 
-check:backdrop,
-.check:backdrop,
 check:disabled,
 .check:disabled,
 check row:selected:disabled,
 check row:selected:focus:disabled {
     -gtk-icon-source: url("img/checkbox-unchecked-insensitive.png");
+}
+check:disabled:backdrop,
+.check:disabled:backdrop,
+check row:selected:disabled:backdrop {
+	-gtk-icon-source: url("img/checkbox-unchecked-insensitive-backdrop.png");
 }
 
 treeview check {
@@ -165,6 +173,11 @@ check row:selected:checked,
 check row:selected:focus:checked {
     -gtk-icon-source: url("img/checkbox-checked.png");
 }
+check:checked:backdrop,
+.check:checked:backdrop,
+check row:selected:checked:backdrop {
+	-gtk-icon-source: url("img/checkbox-checked-backdrop.png");
+}
 
 check:checked:hover,
 .check:checked:hover,
@@ -173,14 +186,19 @@ check row:selected:focus:checked:hover {
     -gtk-icon-source: url("img/checkbox-checked-hover.png");
 }
 
-check:checked:backdrop,
-.checl:checked:backdrop,
 check:checked:disabled,
 .check:checked:disabled,
 check row:selected:checked:disabled,
 check row:selected:focus:checked:disabled {
     -gtk-icon-source: url("img/checkbox-checked-insensitive.png");
- }
+}
+check:checked:disabled:backdrop,
+.check:checked:disabled:backdrop,
+check row:selected:checked:disabled:backdrop {
+	-gtk-icon-source: url("img/checkbox-checked-insensitive-backdrop.png");
+}
+
+
 
 check:indeterminate,
 .check:indeterminate,
@@ -201,6 +219,12 @@ check:indeterminate:disabled,
 check row:selected:indeterminate:disabled,
 check row:selected:focus:indeterminate:disabled {
     -gtk-icon-source: url("img/checkbox-mixed-insensitive.png");
+}
+check:indeterminate:disabled:backdrop,
+.check:indeterminate:disabled:backdrop,
+check row:selected:indeterminate:disabled:backdrop,
+check row:selected:focus:indeterminate:disabled:backdrop {
+	-gtk-icon-source: url("img/checkbox-mixed-insensitive-backdrop.png");
 }
 
 radio,
