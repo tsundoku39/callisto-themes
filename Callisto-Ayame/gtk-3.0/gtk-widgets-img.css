@@ -106,6 +106,8 @@ check row:selected:focus:hover {
     -gtk-icon-source: url("img/checkbox-unchecked-hover.png");
 }
 
+check:backdrop,
+.check:backdrop,
 check:disabled,
 .check:disabled,
 check row:selected:disabled,
@@ -171,6 +173,8 @@ check row:selected:focus:checked:hover {
     -gtk-icon-source: url("img/checkbox-checked-hover.png");
 }
 
+check:checked:backdrop,
+.checl:checked:backdrop,
 check:checked:disabled,
 .check:checked:disabled,
 check row:selected:checked:disabled,
