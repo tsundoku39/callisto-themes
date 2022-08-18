@@ -585,47 +585,40 @@ button.default:backdrop {
 }
 
 buttonbox > button {
-	border-width: 6px;
-	border-image: url("img/button-margin.png") 6 / 6px repeat;
-	padding: 3px;
+	border-image: url("img/button-margin.png") 3 / 3px repeat;
+	border-width: 1px;
 }
 
 buttonbox > button.default {
-	border-image: url("img/button-default.png") 6 / 6px repeat;
-	padding: 3px;
-	border-width: 6px;
+	border-image: url("img/button-focus.png") 3 / 3px repeat;
+	border-width: 1px;
 }
 
 buttonbox > button.default:backdrop {
-	border-image: url("img/button-default-backdrop.png") 6 / 6px repeat;
-	padding: 3px;
-	border-width: 6px;
+	border-image: url("img/button-default-backdrop.png") 3 / 3px repeat;
+	border-width: 1px;
 }
 
 buttonbox > button:backdrop {
-	border-image: url("img/button-margin-backdrop.png") 6 / 6px repeat;
-	padding: 3px;
-	border-width: 6px;
+	border-image: url("img/button-margin-backdrop.png") 3 / 3px repeat;
+	border-width: 1px;
 }
 
 buttonbox > button:active,
 buttonbox > button:focus:hover:active {
-	border-image: url("img/button-margin-pressed.png") 6 / 6px repeat;
-	padding: 3px;
-	border-width: 6px;
+	border-image: url("img/button-margin-pressed.png") 3 / 3px repeat;
+	border-width: 1px;
 }
 
 buttonbox > button.default:active,
 buttonbox > button.default:focus:hover:active {
-	border-image: url("img/button-default-pressed.png") 6 / 6px repeat;
-	padding: 3px;
-	border-width: 6px;
+	border-image: url("img/button-pressed-platinum.png") 3 / 3px repeat;
+	border-width: 1px;
 }
 
 buttonbox > button.default:disabled {
-	border-image: url("img/button-default-backdrop.png") 6 / 6px repeat;
-	padding: 3px;
-	border-width: 6px;
+	border-image: url("img/button-default-backdrop.png") 3 / 3px repeat;
+	border-width: 1px;
 }
 
 /* headerbar.titlebar button {
