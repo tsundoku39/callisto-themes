@@ -304,9 +304,19 @@ scale.horizontal slider:hover {
     background-image: url("img/scale-slider-horz-hover.png");
 }
 
+/* scale slider:backdrop, */
+scale.horizontal slider:backdrop {
+    background-image: url("img/scale-slider-horz-backdrop.png"); 
+}
+
 scale slider:disabled,
 scale.horizontal slider:disabled {
     background-image: url("img/scale-slider-horz-insensitive.png");
+}
+
+scale slider:disabled:backdrop,
+scale.horizontal slider:disabled:backdrop {
+	background-image: url("img/scale-slider-horz-backdrop.png");
 }
 
 scale.vertical slider {
@@ -321,6 +331,10 @@ scale.vertical slider:disabled {
     background-image: url("img/scale-slider-vert-insensitive.png");
 }
 
+scale.vertical slider:disabled:backdrop {
+	background-image: url("img/scale-slider-vert-backdrop.png");
+}
+
 scale.horizontal.marks-before slider {
     background-image: url("img/scale-slider-horz.png");
 }
@@ -331,6 +345,10 @@ scale.horizontal.marks-before slider:hover {
 
 scale.horizontal.marks-before slider:disabled {
     background-image: url("img/scale-slider-horz-insensitive.png");
+}
+
+scale.horizontal.marks-before slider:disabled:backdrop {
+	background-image: url("img/scale-slider-horz-backdrop.png");
 }
 
 scale.vertical.marks-before slider {
@@ -345,13 +363,17 @@ scale.vertical.marks-before slider:disabled {
     background-image: url("img/scale-slider-vert-insensitive.png");
 }
 
-scale.horizontal.marks-after slider {
+scale.vertical.marks-before slider:disabled:backdrop {
+	background-image: url("img/scale-slider-vert-backdrop.png");
+}
+
+/*scale.horizontal.marks-after slider {
     background-image: url("img/scale-slider-horz.png");
 }
 
 scale.horizontal.marks-after slider:hover {
     background-image: url("img/scale-slider-horz-hover.png");
-}
+} */
 
 scale.horizontal.marks-after slider:disabled {
     background-image: url("img/scale-slider-horz-insensitive.png");

@@ -869,19 +869,20 @@ scale slider:disabled {
 }
 
 scale.horizontal slider {
-    min-width: 21px;
-    margin: -6px 0px -9px 0px;
+    min-width: 13px;
+    min-height: 19px;
+    margin: -9px 0px -9px 0px;
 }
 
 scale.vertical slider {
-    min-height: 21px;
-    margin: 0px -7px 0px -6px;
+    min-height: 13px;
+	min-width: 19px;
+    margin: 0px -9px 0px -9px;
 }
 
 scale.horizontal.marks-after slider {
-    margin-top: -6px;
+    /*margin-top: -6px; */
     background-repeat: no-repeat;
-    min-height: 16px;
 }
 
 scale.vertical slider,
@@ -904,8 +905,6 @@ scale.horizontal.color.marks-before trough {
 }
 
 scale.horizontal.color.marks-before slider {
-    min-height: 20px;
-    min-width: 30px;
     background-size: 90%;
 }
 
